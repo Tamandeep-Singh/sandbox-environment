@@ -6,7 +6,7 @@ Every new technology or programming language (e.g typescript) would be stored as
 
 So the directory would be /sandbox-environment/typescript/ex1_variables.ts where ex1 means exercise 1 and variables is the concept to learn. 
 
-Goals:
--Bash
--NodeJS (In Depth)
+## Goals
+- Bash
+- NodeJS (In Depth)
 
