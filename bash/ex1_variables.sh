@@ -19,4 +19,5 @@ echo "Your name is: $name"
 #access global ENV variables
 echo "Random value: $RANDOM"
 
-
+#positional arguments follow the convention $1, $2, etc
+echo "Positional argument one: $1 , positional argument two: $2"
