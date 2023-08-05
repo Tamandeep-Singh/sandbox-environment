@@ -18,3 +18,8 @@ expr 5 + 4
 a=$((4+6)) 
 
 echo "Using $, the value of a is: $a"
+
+length_test="Hello World"
+
+#use ${#<varname>} to get the length of a variable
+echo "The length of Hello World is: ${#length_test}"
