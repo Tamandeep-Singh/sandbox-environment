@@ -22,7 +22,7 @@ else
 fi
 
 #use global env variable PWD to get full path for directory
-test_dir="$PWD/ex3_bash_test"
+test_dir="ex3_bash_test"
 
 #if the test directory does not exist then create it
 if [[ ! -d $test_dir ]]; then 
