@@ -32,3 +32,21 @@ else
     echo "$test_dir already exists"
 fi
 
+#Switch Case
+#Must end with esac keyword and each case is terminated with ;;
+#Default case can be handled with use of wildcard (*) operator
+case $1 in
+
+    1056)
+    echo "Positional arg is 1056"
+    ;;
+
+    567)
+    echo "Positional arg is 567"
+    ;;
+    
+    *)
+    echo "Unknown positional arg"
+    ;;
+
+esac 
